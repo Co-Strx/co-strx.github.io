@@ -1,4 +1,4 @@
-/* Reset some default spacing */
+
 body, h1, p, a {
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
     padding: 0;
 }
 
-/* Navbar */
+
 .navbar {
     width: 90%;
     margin: 20px auto;
@@ -42,7 +42,7 @@ body {
     padding: 10px 15px;
 }
 
-/* CTA section */
+/* call to action formatting */
 .cta {
     margin-top: 30px;
     text-align: center;
@@ -58,7 +58,7 @@ body {
     margin-bottom: 15px;
 }
 
-/* Navicons section */
+/* Navicons and subclasses*/
 .navicons {
     display: flex;
     justify-content: center;
@@ -94,7 +94,7 @@ body {
     border-radius: 5px;
 }
 
-/* Footer */
+
 .footer {
     margin-top: 50px;
     padding: 20px;
@@ -112,7 +112,7 @@ body {
     margin: 40px auto;
     gap: 30px;
     flex-direction: row;
-    flex-wrap: nowrap; /* prevent wrapping unless too small */
+    flex-wrap: nowrap;
     padding: 0 20px;
 }
 
@@ -121,12 +121,12 @@ body {
 }
 
 .content-block img {
-    width: 250px; /* fixed size */
+    width: 250px; 
     height: 160px;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    flex-shrink: 0; /* prevents shrinking when space is tight */
+    flex-shrink: 0; 
 }
 
 .content-block .text {
@@ -178,3 +178,5 @@ body {
     margin: 0 auto 30px !important;
     overflow: hidden !important;
 }
+
+/*NB: these are set to important because i really cannot be bothered to find what is overriding the size rn lolol*/
