@@ -7,11 +7,17 @@ body, h1, p, a {
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    
     text-align: center;
     margin: 0;
     padding: 0;
+    background-image: url('images/cta-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
+
 
 
 .navbar {
@@ -75,8 +81,8 @@ body {
 }
 
 .navicon {
-    width: 200px;
-    height: 300px;
+    width: 220px;
+    height: 400px;
     object-fit: cover;
     border-radius: 10px;
     transition: transform 0.3s;
@@ -177,6 +183,7 @@ body {
     height: 700px !important;
     margin: 0 auto 30px !important;
     overflow: hidden !important;
+    border-radius:15px;
 }
 
 /*NB: these are set to important because i really cannot be bothered to find what is overriding the size rn lolol*/
