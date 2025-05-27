@@ -186,4 +186,11 @@ body {
     border-radius:15px;
 }
 
+
 /*NB: these are set to important because i really cannot be bothered to find what is overriding the size rn lolol*/
+
+
+.footer {
+  position: sticky;
+  top: 100vh; /* Offset it from the top by the full height of the viewport */
+}
